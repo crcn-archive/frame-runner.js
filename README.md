@@ -1,12 +1,6 @@
 ```javascript
-var runner = require("runnerjs");
-
-runner.ticker(function (next) {
+var runner = require("runnerjs")(function (next) {
   requestAnimationFrame(next);
-});
-
-runner.ticker(function (next) {
-  process.nextTick(next);
 });
 
 runner.run({
