@@ -9,6 +9,6 @@ runner.run({
   }
 });
 
-// run now
+// run now - bypass request animation frame
 runner.update();
 ```
