@@ -8,4 +8,7 @@ runner.run({
     
   }
 });
+
+// run now
+runner.update();
 ```
