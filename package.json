@@ -1,6 +1,6 @@
 {
   "name": "frame-runner",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "```javascript var runner = require(\"runnerjs\")(function (next) {   requestAnimationFrame(next); });",
   "main": "./lib/index.js",
   "directories": {
