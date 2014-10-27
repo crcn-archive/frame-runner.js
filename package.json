@@ -1,0 +1,25 @@
+{
+  "name": "frame-runner",
+  "version": "0.0.1",
+  "description": "```javascript var runner = require(\"runnerjs\")(function (next) {   requestAnimationFrame(next); });",
+  "main": "./lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mojo-js/runner.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojo-js/runner.js/issues"
+  },
+  "homepage": "https://github.com/mojo-js/runner.js",
+  "dependencies": {
+    "protoclass": "0.0.6"
+  }
+}
