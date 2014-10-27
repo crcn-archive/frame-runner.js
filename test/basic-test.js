@@ -78,4 +78,22 @@ describe("animate#", function () {
   });
 
 
+  it("cannot re-run the same object", function () {
+    var i = 0;
+    var runnable = {
+      update: function () { i++; }
+    }
+
+    animator.run(runnable);
+    animator.run(runnable);
+    animator.update();
+
+    expect(i).to.be(1);
+
+    animator.run(runnable);
+    animator.update();
+
+    expect(i).to.be(2);
+  });
+
 });
