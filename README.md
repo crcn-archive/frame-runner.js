@@ -1,7 +1,5 @@
 ```javascript
-var runner = require("runnerjs")(function (next) {
-  requestAnimationFrame(next);
-});
+var runner = require("frame-runner")();
 
 runner.run({
   update: function () {
