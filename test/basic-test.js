@@ -84,6 +84,8 @@ describe("animate#", function () {
       update: function () { i++; }
     }
 
+    animator = runner(process.nextTick);
+
     animator.run(runnable);
     animator.run(runnable);
     animator.update();
